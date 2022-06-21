@@ -30,7 +30,7 @@ include "functions.php";
                 </div>
                 <div class="col-md-3">
 					<div class="form-group">
-					<label for="exampleFormControlInput1">Event</label>
+					<label for="exampleFormControlInput1">Event Name</label>
                     <select class="form-control" id="event_id" name="event_id">
                       <option value="0">Select Your Event</option>
                       	  <?php
