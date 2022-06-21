@@ -20,4 +20,44 @@
 			return $event_date;
 		}
     }
+	
+	// Function to test TimeZone Conversion//
+	
+	function testTimeZoneConvert() {
+        
+		$givenDate = '2022-06-21 18:46:32'; // Set your Berlin Time //
+		
+        $expectedDate = '2022-06-21 16:46:32'; // Set your Corrosponding UTC Time //
+		
+		// Checks the two TimeZone Conversion //
+		
+		if($expectedDate == timeConverter($givenDate)){
+			return "Given Date is equal to Expected Date";
+		}
+		else{
+			return "Given Date is not equal to Expected Date";
+		}
+    }
+	
+	// Function to test TimeZone Conversion Based on Version //
+
+    function testVersionCompareToCalculateEventDate() {
+        
+		$givenDate = '2022-06-21 18:46:32'; // Set your Berlin Time //
+		
+        $expectedDate = '2022-06-21 16:46:32'; // Set your Corrosponding UTC Time //
+		
+        $version = '1.0.17+05'; // Set your Version //
+		
+		// Checks the two TimeZone Conversion with Version parameter //
+		
+		if($expectedDate == versionCompare($version,$givenDate)){
+			return "Given Date is equal to Expected Date";
+		}
+		else{
+			return "Given Date is not equal to Expected Date";
+		}
+    }
+
+	
 ?>
