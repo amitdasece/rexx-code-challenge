@@ -1,3 +1,4 @@
+<h2 dir="auto" data-sourcepos="26:1-26:15"> <a aria-hidden="true" href="#rexx-code" id="user-content-rexx"></a>REXX Code Challenge</h2>
 <p dir="auto" data-sourcepos="2:1-2:62">Presentation of Event Management and showing the listing with filteration using Employee Name, Event Name and Event Date </p>
 <p dir="auto" data-sourcepos="4:1-6:164">The Event Management changed the timezone of the Event date.  Prior to version 1.0.17+60 it was Europe/Berlin.  Afterwards it is UTC. Here I presume the standard timezone is UTC and changed the event date according to that timezone considering the condition of version comparison.</p>
 
